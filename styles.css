@@ -1,0 +1,51 @@
+body {
+    background-color: sandybrown;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+.head {
+    text-align: center;
+}
+}
+.Pizza{
+    border: 1px solid whitesmoke ;
+    padding: 1cm;
+    margin: 1cm;
+    margin-bottom: 0.5cm;
+    border-radius: 0.6cm;
+    /*Use display: inline-block*/
+    /*width:20cm;
+    display: inline-block;
+    mini-height:30cm;*/
+}
+.Small_Pizza{
+    background-color: salmon;
+    flex: 1;
+}
+.Medium_Pizza {
+    background-color: seagreen;
+    flex: 2;
+}
+.Large_Pizza{
+    background-color: bisque;
+    flex: 3;
+}
+.Contacts_us{
+     background-color: seashell;
+}
+.special{
+    background-color: rgb(5, 5, 5);
+    color: mintcream;
+    margin: 0.5cm;
+}
+@media (min-width:760px){
+    body{
+         background-color: rgb(248, 244, 5);
+        }
+    }
+@media (min-width:960px){
+body{
+    background-color: coral;
+   }
+   .Pizzas{
+    display:flex
+}
+}
